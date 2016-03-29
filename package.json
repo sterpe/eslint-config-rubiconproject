@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-rubiconproject",
+  "version": "0.0.0",
+  "description": "the Rubicon Project's Shareable ESLint Config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sterpe@rubiconproject.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sterpe/eslint-config-rubiconproject.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "bugs": {
+    "url": "https://github.com/sterpe/eslint-config-rubiconproject/issues"
+  },
+  "homepage": "https://github.com/sterpe/eslint-config-rubiconproject#readme",
+  "peerDependencies": {
+    "eslint-config-xo-react": "^0.5.0",
+    "eslint-plugin-react": "^4.2.3",
+    "xo": "^0.13.0"
+  }
+}
