@@ -4,7 +4,19 @@
   "description": "the Rubicon Project's Shareable ESLint Config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint ."
+  },
+  "eslintConfig": {
+    "plugins": [
+      "react",
+      "promise",
+      "standard"
+    ],
+    "extends": [
+      "standard",
+      "standard-jsx",
+      "rubiconproject"
+    ]
   },
   "author": "sterpe@rubiconproject.com",
   "license": "MIT",
@@ -21,8 +33,19 @@
   },
   "homepage": "https://github.com/sterpe/eslint-config-rubiconproject#readme",
   "peerDependencies": {
-    "eslint-config-xo-react": "^0.5.0",
+    "eslint": "^2.5.3",
+    "eslint-config-standard": "^5.1.0",
+    "eslint-config-standard-jsx": "^1.1.1",
+    "eslint-plugin-promise": "^1.1.0",
     "eslint-plugin-react": "^4.2.3",
-    "xo": "^0.13.0"
+    "eslint-plugin-standard": "^1.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^2.5.3",
+    "eslint-config-standard": "^5.1.0",
+    "eslint-config-standard-jsx": "^1.1.1",
+    "eslint-plugin-promise": "^1.1.0",
+    "eslint-plugin-react": "^4.2.3",
+    "eslint-plugin-standard": "^1.3.2"
   }
 }

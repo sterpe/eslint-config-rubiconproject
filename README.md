@@ -2,21 +2,36 @@
 
 The Rubicon Project's Shareable ESLint Config
 
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
-## Tip
-
-### Use with XO
+### Use with `eslint`
 
 ```
-$ npm install --save-dev xo eslint-config-xo-react eslint-config-rubiconproject eslint-plugin-react
+$ npm install --save-dev eslint \
+  eslint-config-standard \
+  eslint-config-standard-jsx \
+  eslint-plugin-promise \
+  eslint-plugin-react \
+  eslint-plugin-standard \
+  eslint-config-rubiconproject
 ```
 
 ```json
 {
-  "name": "my-awesome-project",
-  "xo": {
-    "extends": ["xo-react", "rubiconproject"]
+  "scripts": {
+    "test": "eslint ."
+  },
+  "eslintConfig": {
+    "plugins": [
+      "react",
+      "promise",
+      "standard"
+    ],
+    "extends": [
+      "standard",
+      "standard-jsx",
+      "rubiconproject"
+    ]
   }
 }
 ```
