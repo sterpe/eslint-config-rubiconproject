@@ -1,4 +1,13 @@
 module.exports = {
+    "plugins": [
+      "react",
+      "promise",
+      "standard"
+    ],
+    "extends": [
+      "standard",
+      "standard-jsx"
+    ],
     'rules': {
         'indent': [2, 4, { 'SwitchCase': 1 }],
         'object-curly-spacing': ['error', 'always'],

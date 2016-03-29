@@ -7,9 +7,8 @@ The Rubicon Project's Shareable ESLint Config
 ### Use with `eslint`
 
 ```
-$ npm install --save-dev eslint \
-  eslint-config-standard \
-  eslint-config-standard-jsx \
+$ npm install --save-dev \
+  eslint \
   eslint-plugin-promise \
   eslint-plugin-react \
   eslint-plugin-standard \
@@ -22,14 +21,7 @@ $ npm install --save-dev eslint \
     "test": "eslint ."
   },
   "eslintConfig": {
-    "plugins": [
-      "react",
-      "promise",
-      "standard"
-    ],
     "extends": [
-      "standard",
-      "standard-jsx",
       "rubiconproject"
     ]
   }
