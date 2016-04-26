@@ -6,6 +6,11 @@ The Rubicon Project's Shareable ESLint Config
 
 ### Use with `eslint`
 
+## Rules
+Importantly:
+ - 4 (Four) space tabs.
+ - Semicolons.
+ - For the rest of the rules checkout [feross/standard]
 ```
 $ npm install --save-dev \
   eslint \
@@ -27,3 +32,4 @@ $ npm install --save-dev \
   }
 }
 ```
+feross/standard: http://standardjs.com/rules.html
