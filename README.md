@@ -6,7 +6,7 @@ The Rubicon Project's Shareable ESLint Config
 
 ## Rules
 Importantly:
- - **4 (Four) space tabs.**
+ - **Four (4) space tabs.**
  - **Semicolons.**
  - Checkout [feross/standard] for the rest of the rules.
 
