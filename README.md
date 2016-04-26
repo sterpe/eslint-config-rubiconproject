@@ -49,8 +49,8 @@ Note that you may also specify you eslintConfig in an `.eslintrc`:
 Ignore files within an `.eslintignore`:
 
 ```bash
-/dist
-/foo/baz.js
+dist/
+foo/baz.js
 ```
 
 ## Specifying globals
