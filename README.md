@@ -61,4 +61,5 @@ See: http://eslint.org/docs/user-guide/configuring#disabling-rules-with-inline-c
 
 ## Specifying environments (such as Test)
 See: http://eslint.org/docs/user-guide/configuring#specifying-environments
-feross/standard: http://standardjs.com/rules.html
+
+[feross/standard]: http://standardjs.com/rules.html
