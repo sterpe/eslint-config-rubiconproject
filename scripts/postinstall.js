@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 
-var peerDependencies = require('../package').peerDependencies;
+var devDependencies = require('../package').devDependencies;
 var child_process = require('child_process'); // eslint-disable-line camelcase
 var path = require('path');
 var cwd = process.cwd();
 var L = [];
 
-for (var key in peerDependencies) {
-    if (peerDependencies.hasOwnProperty(key)) {
-        L.push([key, peerDependencies[key]].join('@'));
+for (var key in devDependencies) {
+    if (devDependencies.hasOwnProperty(key)) {
+        L.push([key, devDependencies[key]].join('@'));
     }
 }
 
