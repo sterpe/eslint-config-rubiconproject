@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rubiconproject",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "the Rubicon Project's Shareable ESLint Config",
   "main": "index.js",
   "scripts": {
