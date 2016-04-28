@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "precommit": "npm test",
-    "pretest": "npm run symlink",
+    "preinstall": "scripts/preinstall.js",
     "presymlink": "rm -f node_modules/eslint-config-rubiconproject",
-    "postinstall": "scripts/postinstall.js",
+    "pretest": "npm run symlink",
     "symlink": "ln -s ../ node_modules/eslint-config-rubiconproject",
     "test": "eslint ."
   },
