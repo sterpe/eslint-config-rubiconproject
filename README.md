@@ -12,9 +12,13 @@ Importantly:
 
 ## Installation
 ```
-$ npm install --save-dev eslint-config-rubiconproject
+$ npm install --save-dev \
+	eslint@^2.8.0 \
+	eslint-plugin-promise@^1.1.0 \
+	eslint-plugin-react@^5.0.1 \
+	eslint-plugin-standard@^1.3.2 \
+	eslint-config-rubiconproject@^0.5.0
 ```
-**Note that a `postinstall` script will install all of the required `peerDependencies`.**
 
 ## Usage
 In your project `package.json` add the following:
