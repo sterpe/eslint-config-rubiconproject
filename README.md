@@ -14,6 +14,7 @@ Importantly:
 ```
 $ npm install --save-dev eslint-config-rubiconproject
 ```
+**Note that a `postinstall` script will install all of the required `peerDependencies`.**
 
 ## Usage
 In your project `package.json` add the following:
