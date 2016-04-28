@@ -12,12 +12,7 @@ Importantly:
 
 ## Installation
 ```
-$ npm install --save-dev \
-  eslint \
-  eslint-plugin-promise \
-  eslint-plugin-react \
-  eslint-plugin-standard \
-  eslint-config-rubiconproject
+$ npm install --save-dev eslint-config-rubiconproject
 ```
 
 ## Usage
